@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# Dependencies
+/vendor/bundle
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# Runtime data
+*.log
+tmp/
+log/
+storage/
+
+# Environment variables
+/.env*
+!/.env.example
+
+# Bundler
+.bundle/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rails
+/config/master.key
+/config/credentials/*.key
+
+# Database
+*.sqlite3
+*.sqlite3-*
+
+# Assets
+/public/assets
+/public/packs
+/public/packs-test
+
+# Cache
+.cache/
+
+# Demo directories
+surveyor_demo/
+*.gem
